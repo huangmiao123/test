@@ -1,0 +1,373 @@
+@charset "utf-8";
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+fieldset,
+lengend,
+button,
+input,
+textarea,
+th,
+td {
+  margin: 0;
+  padding: 0
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font: 15px \5FAE\8F6F\96C5\9ED1, Helvetica, Microsoft YaHei, Microsoft JhengHei;
+  color: #323232;
+}
+
+h1,
+.f18 {
+  font-size: 18px
+}
+
+h2,
+.f16 {
+  font-size: 16px
+}
+
+h3,
+.f14 {
+  font-size: 14px
+}
+
+h4,
+h5,
+h6 {
+  font-size: 100%
+}
+
+.f12 {
+  font-size: 12px
+}
+
+.f13 {
+  font-size: 13px
+}
+
+address,
+cite,
+dfn,
+em,
+var,
+i {
+  font-style: normal
+}
+
+ul,
+ol {
+  list-style: none
+}
+
+legend {
+  color: #000
+}
+
+fieldset,
+img {
+  border: none
+}
+
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  outline: none;
+  font-family: inherit;
+  border: none
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+html * {
+  outline: 0;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: #323232
+}
+
+a:active {
+  background: #eee
+}
+
+html,
+body {
+  overflow-x: hidden
+}
+
+/* 常用css元件库 */
+
+.fl {
+  float: left
+}
+
+.fr {
+  float: right
+}
+
+.clear {
+  clear: both
+}
+
+.cf {
+  zoom: 1
+}
+
+.cf:after {
+  content: ".";
+  display: block;
+  height: 0;
+  font-size: 0;
+  clear: both;
+  visibility: hidden
+}
+
+.clearfix {
+  zoom: 1
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  font-size: 0;
+  clear: both;
+  visibility: hidden
+}
+
+.fb {
+  font-weight: bold
+}
+
+.fn {
+  font-weight: normal;
+}
+
+.tl {
+  text-align: left
+}
+
+.tc {
+  text-align: center
+}
+
+.tr {
+  text-align: right
+}
+
+.mb10 {
+  margin-bottom: 10px
+}
+
+.mb15 {
+  margin-bottom: 15px
+}
+
+.mb20 {
+  margin-bottom: 20px
+}
+
+.mb30 {
+  margin-bottom: 30px
+}
+
+.mx_a {
+  margin-left: auto;
+  margin-right: auto
+}
+
+.oh {
+  overflow: hidden
+}
+
+.my10 {
+  margin: 0 10px
+}
+
+.pr {
+  position: relative
+}
+
+.pa {
+  position: absolute
+}
+
+.vam {
+  vertical-align: middle
+}
+
+.db {
+  display: block
+}
+
+.dib {
+  display: inline-block
+}
+
+.di {
+  display: inline
+}
+
+.dn {
+  display: none
+}
+
+.hidden {
+  display: none
+}
+
+.f3 {
+  color: #333
+}
+
+.f6 {
+  color: #666
+}
+
+.f9 {
+  color: #999
+}
+
+.f8 {
+  color: #888
+}
+
+.px8 {
+  padding-left: 8px;
+  padding-right: 8px
+}
+
+.py8 {
+  padding-top: 8px;
+  padding-bottom: 8px
+}
+
+.pt8 {
+  padding-top: 8px
+}
+
+.pt0 {
+  padding-top: 0 !important
+}
+
+.b0 {
+  border: 0 !important
+}
+
+.pb8 {
+  padding-bottom: 8px
+}
+
+.pr8 {
+  padding-right: 8px
+}
+
+.pl8 {
+  padding-left: 8px
+}
+
+.p8 {
+  padding: 8px
+}
+
+.mr8 {
+  margin-right: 8px
+}
+
+.m0 {
+  margin: 0 !important
+}
+
+.mx5 {
+  margin: 0 5px
+}
+
+.m8 {
+  margin: 8px
+}
+
+.mb8 {
+  margin-bottom: 8px
+}
+
+.mb5 {
+  margin-bottom: 5px
+}
+
+.mb2 {
+  margin-bottom: 2px
+}
+
+.mt10 {
+  margin-top: 10px
+}
+
+.g {
+  color: #1f89e3
+}
+
+.br3 {
+  border-radius: 3px
+}
+
+.br5 {
+  border-radius: 5px
+}
+
+.br8 {
+  border-radius: 8px
+}
+
+.flex {
+  display: flex
+}
+
+.flex1 {
+  flex: 1;
+  width: 0;
+  display: block
+}
+
+body {
+  background-color: #fff;
+  margin: 0 auto;
+  max-width: 740px
+}
+
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* text-align: center; */
+  color: #2c3e50
+}
+
